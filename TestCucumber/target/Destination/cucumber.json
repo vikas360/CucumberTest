@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test facebook login functionality",
+        "description": "",
+        "id": "facebook-smoke-test;test-facebook-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6675404116,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser and launch the application",
+            "match": {
+              "location": "FacebookTest.open_browser_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 441495004,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid username and valid password",
+            "match": {
+              "location": "FacebookTest.i_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11272382716,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "FacebookTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2382314852,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Quit the browser",
+            "match": {
+              "location": "FacebookTest.quit_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook smoke test",
+    "description": "",
+    "id": "facebook-smoke-test",
+    "keyword": "Feature",
+    "uri": "Facebook.feature"
+  }
+]
