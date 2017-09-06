@@ -1,65 +1,83 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Facebook.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Gmail.feature");
 formatter.feature({
   "line": 1,
-  "name": "Facebook smoke test",
+  "name": "Gmail smoke test",
   "description": "",
-  "id": "facebook-smoke-test",
+  "id": "gmail-smoke-test",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 3,
-  "name": "Test facebook login functionality",
+  "line": 4,
+  "name": "Test Gmail Login",
   "description": "",
-  "id": "facebook-smoke-test;test-facebook-login-functionality",
+  "id": "gmail-smoke-test;test-gmail-login",
   "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "open browser and launch the application",
-  "keyword": "Given "
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@TestGmail"
+    }
+  ]
 });
 formatter.step({
   "line": 6,
-  "name": "I enter valid username and valid password",
-  "keyword": "When "
+  "name": "open browser and launch the gmail application.",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 7,
-  "name": "user should be able to login successfully",
-  "keyword": "Then "
+  "name": "Enter valid username and valid password for gmail.",
+  "keyword": "When "
 });
 formatter.step({
   "line": 8,
-  "name": "Quit the browser",
+  "name": "user should be login successfully for gmail.",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "Sign out the gmail account.",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "Quit",
   "keyword": "And "
 });
 formatter.match({
-  "location": "FacebookTest.open_browser_and_launch_the_application()"
+  "location": "GmailTest.open_browser_and_launch_the_gmailapplication()"
 });
 formatter.result({
-  "duration": 6675404116,
+  "duration": 10435019288,
   "status": "passed"
 });
 formatter.match({
-  "location": "FacebookTest.i_enter_valid_username_and_valid_password()"
+  "location": "GmailTest.enter_valid_username_and_valid_password_for_gmail()"
 });
 formatter.result({
-  "duration": 441495004,
+  "duration": 2326977404,
   "status": "passed"
 });
 formatter.match({
-  "location": "FacebookTest.user_should_be_able_to_login_successfully()"
+  "location": "GmailTest.user_should_be_login_successfully_for_gmail()"
 });
 formatter.result({
-  "duration": 11272382716,
+  "duration": 10079963319,
   "status": "passed"
 });
 formatter.match({
-  "location": "FacebookTest.quit_the_browser()"
+  "location": "GmailTest.sign_out_the_gmail_account()"
 });
 formatter.result({
-  "duration": 2382314852,
+  "duration": 10338682489,
+  "status": "passed"
+});
+formatter.match({
+  "location": "GmailTest.quit_browser()"
+});
+formatter.result({
+  "duration": 2316789088,
   "status": "passed"
 });
 });

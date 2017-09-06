@@ -11,9 +11,7 @@ import cucumber.api.junit.Cucumber;
 		glue={"com.cucumber.stepDefination"},
 		plugin= {"html:target/cucumber-html-report",
 				"json:target/Destination/cucumber.json",
-				},
-		tags= {"@TestGmail"}
-		 
+				}		 
 		)
 
 public class TestRunner {

@@ -3,68 +3,86 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "Test facebook login functionality",
+        "line": 4,
+        "name": "Test Gmail Login",
         "description": "",
-        "id": "facebook-smoke-test;test-facebook-login-functionality",
+        "id": "gmail-smoke-test;test-gmail-login",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6675404116,
+              "duration": 10435019288,
               "status": "passed"
             },
-            "line": 5,
-            "name": "open browser and launch the application",
+            "line": 6,
+            "name": "open browser and launch the gmail application.",
             "match": {
-              "location": "FacebookTest.open_browser_and_launch_the_application()"
+              "location": "GmailTest.open_browser_and_launch_the_gmailapplication()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 441495004,
+              "duration": 2326977404,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I enter valid username and valid password",
+            "line": 7,
+            "name": "Enter valid username and valid password for gmail.",
             "match": {
-              "location": "FacebookTest.i_enter_valid_username_and_valid_password()"
+              "location": "GmailTest.enter_valid_username_and_valid_password_for_gmail()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 11272382716,
+              "duration": 10079963319,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user should be able to login successfully",
+            "line": 8,
+            "name": "user should be login successfully for gmail.",
             "match": {
-              "location": "FacebookTest.user_should_be_able_to_login_successfully()"
+              "location": "GmailTest.user_should_be_login_successfully_for_gmail()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2382314852,
+              "duration": 10338682489,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Quit the browser",
+            "line": 9,
+            "name": "Sign out the gmail account.",
             "match": {
-              "location": "FacebookTest.quit_the_browser()"
+              "location": "GmailTest.sign_out_the_gmail_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2316789088,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Quit",
+            "match": {
+              "location": "GmailTest.quit_browser()"
             },
             "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestGmail"
           }
         ]
       }
     ],
-    "name": "Facebook smoke test",
+    "name": "Gmail smoke test",
     "description": "",
-    "id": "facebook-smoke-test",
+    "id": "gmail-smoke-test",
     "keyword": "Feature",
-    "uri": "Facebook.feature"
+    "uri": "Gmail.feature"
   }
 ]
