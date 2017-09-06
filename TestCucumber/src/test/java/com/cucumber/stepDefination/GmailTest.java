@@ -40,9 +40,11 @@ public class GmailTest {
 		driver.findElement(By.xpath("//a[contains(@href, 'Logout')]")).click();
 	}
 	
-	@Then("^Quit$")
+	@Then("^Quit the browser\\.$")
 	public void quit_browser() throws Throwable {
 	    
 		driver.close();
 	}	
+	
+	
 }

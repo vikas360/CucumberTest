@@ -42,42 +42,42 @@ formatter.step({
 });
 formatter.step({
   "line": 10,
-  "name": "Quit",
+  "name": "Quit the browser.",
   "keyword": "And "
 });
 formatter.match({
   "location": "GmailTest.open_browser_and_launch_the_gmailapplication()"
 });
 formatter.result({
-  "duration": 10435019288,
+  "duration": 16008701293,
   "status": "passed"
 });
 formatter.match({
   "location": "GmailTest.enter_valid_username_and_valid_password_for_gmail()"
 });
 formatter.result({
-  "duration": 2326977404,
+  "duration": 2305848997,
   "status": "passed"
 });
 formatter.match({
   "location": "GmailTest.user_should_be_login_successfully_for_gmail()"
 });
 formatter.result({
-  "duration": 10079963319,
+  "duration": 10078212183,
   "status": "passed"
 });
 formatter.match({
   "location": "GmailTest.sign_out_the_gmail_account()"
 });
 formatter.result({
-  "duration": 10338682489,
+  "duration": 12353647067,
   "status": "passed"
 });
 formatter.match({
   "location": "GmailTest.quit_browser()"
 });
 formatter.result({
-  "duration": 2316789088,
+  "duration": 456997721,
   "status": "passed"
 });
 });

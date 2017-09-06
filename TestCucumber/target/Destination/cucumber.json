@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10435019288,
+              "duration": 16008701293,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2326977404,
+              "duration": 2305848997,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 10079963319,
+              "duration": 10078212183,
               "status": "passed"
             },
             "line": 8,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 10338682489,
+              "duration": 12353647067,
               "status": "passed"
             },
             "line": 9,
@@ -60,11 +60,11 @@
           },
           {
             "result": {
-              "duration": 2316789088,
+              "duration": 456997721,
               "status": "passed"
             },
             "line": 10,
-            "name": "Quit",
+            "name": "Quit the browser.",
             "match": {
               "location": "GmailTest.quit_browser()"
             },
