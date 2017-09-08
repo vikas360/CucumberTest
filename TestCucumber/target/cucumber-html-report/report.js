@@ -49,35 +49,35 @@ formatter.match({
   "location": "GmailTest.open_browser_and_launch_the_gmailapplication()"
 });
 formatter.result({
-  "duration": 16008701293,
+  "duration": 38348369322,
   "status": "passed"
 });
 formatter.match({
   "location": "GmailTest.enter_valid_username_and_valid_password_for_gmail()"
 });
 formatter.result({
-  "duration": 2305848997,
+  "duration": 2282936704,
   "status": "passed"
 });
 formatter.match({
   "location": "GmailTest.user_should_be_login_successfully_for_gmail()"
 });
 formatter.result({
-  "duration": 10078212183,
+  "duration": 10065651661,
   "status": "passed"
 });
 formatter.match({
   "location": "GmailTest.sign_out_the_gmail_account()"
 });
 formatter.result({
-  "duration": 12353647067,
+  "duration": 19073874006,
   "status": "passed"
 });
 formatter.match({
   "location": "GmailTest.quit_browser()"
 });
 formatter.result({
-  "duration": 456997721,
+  "duration": 2317305294,
   "status": "passed"
 });
 });

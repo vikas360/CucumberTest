@@ -3,6 +3,7 @@ package com.cucumber.stepDefination;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -13,8 +14,8 @@ public class GmailTest {
 		
 	@Given("^open browser and launch the gmail application\\.$")
 	public void open_browser_and_launch_the_gmailapplication() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vikass\\workspace\\chromedriver.exe");
-		driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vikass\\workspace\\chromedriver.exe");		
+		driver=new ChromeDriver();		
 		driver.manage().window().maximize();
 		driver.get("https://www.gmail.com/");		
 	}
